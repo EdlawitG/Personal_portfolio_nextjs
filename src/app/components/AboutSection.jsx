@@ -14,7 +14,8 @@ const TAB_DATA = [
         <li>Tailwind css</li>
         <li>ReactJS</li>
         <li>NextJs</li>
-        <li>MERN</li>
+        <li>MongoDB</li>
+        <li>Figma</li>
       </ul>
     ),
   },

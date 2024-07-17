@@ -17,13 +17,13 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Blog Website",
+    title: "Full Stack Blog Website",
     description: "blog",
     image: "/images/projects/web2.PNG",
     tag: ["All", "Web"],
     gitUrl:
-      "https://github.com/EdlawitG/react-project/tree/master/BlogWebsite/blogwebsite",
-    previewUrl: "https://blogwebsite-zeta.vercel.app/",
+      "https://github.com/EdlawitG/AFEONEX",
+    previewUrl: "",
   },
   {
     id: 3,
@@ -74,13 +74,13 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "UI design for EPR System for Mekedoina ",
+    title: "UI design for HRM System for Mekedoina ",
     description: "adminpage",
     image: "/images/projects/ui2.png",
     tag: ["All", "UI/UX"],
     gitUrl:"",
     previewUrl:
-      "https://www.figma.com/proto/vNWaFcMN0FGNBxIGi4Kr5G/High-Fidelity?type=design&node-id=373-3153&t=chtGmk2vz1mIKCKC-0&scaling=min-zoom&page-id=373%3A690",
+      "https://figma.com/design/vNWaFcMN0FGNBxIGi4Kr5G/EPR-System-Mekedoina?node-id=373-690&t=PM6hAst2BWLXrRdu-0",
   },
   {
     id: 8,
@@ -142,6 +142,35 @@ const projectsData = [
     previewUrl:
       "https://www.figma.com/proto/v7qCDlRRmv7MKdvfVVs4T4/ShegaDate?type=design&node-id=3-2&t=AIqfYsWB08Zf1uxT-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2",
   },
+  {
+    id: 12,
+    title: "Language Learning Mobile App",
+    description: "language learning app",
+    image: "/images/projects/ui10.png",
+    tag: ["All", "UI/UX"],
+    gitUrl:"",
+    previewUrl:"https://www.figma.com/design/R2BWrs7SmHfzCO2GjQNzxB/Language_Learning_app?t=EevlG82YNmw9ZFRO-0"
+  },
+  {
+    id: 13,
+    title: "Website For Mekedoina",
+    description: "mern project",
+    image: "/images/projects/web7.png",
+    tag: ["All", "Web"],
+    gitUrl:
+      "https://github.com/codeAvengers5/user-site",
+    previewUrl: "",
+  },
+  {
+    id: 14,
+    title: "HRM For Mekedoina",
+    description: "mern project",
+    image: "/images/projects/web8.jpg",
+    tag: ["All", "Web"],
+    gitUrl:
+      "https://github.com/codeAvengers5/ERP-system-frontend",
+    previewUrl: "",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -178,11 +207,11 @@ const ProjectsSection = () => {
           name="Web"
           isSelected={tag === "Web"}
         />
-        <ProjectTag
+        {/* <ProjectTag
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
-        />
+        /> */}
         <ProjectTag
           onClick={handleTagChange}
           name="UI/UX"
